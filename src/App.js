@@ -44,8 +44,8 @@ class App extends Component {
 
     componentWillUnmount() {
     this.firebaseRef.off();
-  }*/
-
+  }
+*/
 
   addTask(val){
     const task = {
