@@ -4,7 +4,6 @@ import Form from './components/form';
 import Addlist from './components/addlist';
 import firebase from 'firebase';
 
-
 const config = {
     apiKey: "AIzaSyDbf4aDgY63YE6ZU0ik5ZrRqPCPrzzkivo",
     authDomain: "react-todos-35a8d.firebaseapp.com",
@@ -24,7 +23,6 @@ class App extends Component {
       count:0
     }
   }
-
 
   /*  componentWillMount() {
       this.firebaseRef = firebase.database().ref('todoApp/items');
